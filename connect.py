@@ -14,8 +14,8 @@ from turtle import (bgcolor, goto, update, up, dot, setup,
 
 from freegames import line
 
-turns = {'red': 'yellow', 'yellow': 'red'}
-state = {'player': 'yellow', 'rows': [0] * 8}
+turns = {'blue': 'green', 'green': 'blue'}
+state = {'player': 'blue', 'rows': [0] * 8}
 
 
 def grid():
@@ -35,7 +35,7 @@ def grid():
 
 
 def tap(x, y):
-    """Draw red or yellow circle in tapped row."""
+    """Draw blue or green circle in tapped row."""
     player = state['player']
     rows = state['rows']
 
